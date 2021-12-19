@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-.header, .upper-section, .footer {
+.header, .hero-section, .footer {
     background-color: #1F2937;
     display: flex;
     align-items: center;   
@@ -16,9 +16,9 @@ body {
     color: #E5E7EB;
 }
 
-.header {
-    justify-content: space-around;
-    padding: 24px;
+.header, .hero-section, .call-section {
+    justify-content: space-between;
+    padding: 24px 200px;
 }
 
 .header-logo {
@@ -38,14 +38,6 @@ body {
     justify-content: center;
 }
 
-.upper-section {
-    justify-content: center;
-}
-
-.container-one {
-    width: 
-}
-
 .bordless-button {
     font-weight: bold;
     background-color: #3882F6;
@@ -57,4 +49,35 @@ body {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+}
+
+.image-placeholder {
+    background-color: #E5E7EB;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.info-section, .quote-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.information {
+    display: flex;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
 }
